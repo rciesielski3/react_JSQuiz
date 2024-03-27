@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Home work description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stwórz Aplikację Quizową w React
+Twoim zadaniem jest stworzenie interaktywnej aplikacji quizowej, która testuje wiedzę użytkownika z wybranego zakresu tematycznego. Aplikacja powinna składać się z ekranu startowego, serii pytań z wielokrotnym wyborem oraz podsumowania wyników na końcu quizu. Dodatkowo, użytkownik powinien mieć możliwość rozpoczęcia quizu od nowa.
+Aplikacja powinna zawierać komponenty zaprojektowane w sposób umożliwiający ich wielokrotne użycie w różnych kontekstach. Przykładem może być komponent Button, który znajduje zastosowanie w różnych częściach aplikacji, takich jak ekran startowy, pytania quizowe czy podsumowanie wyników. Aby osiągnąć reużywalność, komponent Button powinien akceptować propsy, które pozwalają na jego dostosowanie.
+
+Wymagania Funkcjonalne:
+
+1. Ekran Startowy: Wyświetl tytuł quizu oraz przycisk rozpoczynający quiz
+2. Seria Pytań: Po rozpoczęciu quizu, użytkownikowi prezentowane są kolejne pytania z czterema możliwymi odpowiedziami do wyboru. Każde pytanie powinno mieć wyświetlany unikalny indeks np. “Pytanie 1” itd.
+3. Zbieranie Odpowiedzi: Aplikacja powinna zbierać i przechowywać odpowiedzi użytkownika
+4. Podsumowanie Wyników:
+
+- Ocena Zaliczenia: Ekran podsumowania jasno informuje, czy użytkownik zaliczył quiz. Aby zaliczyć quiz, użytkownik musi osiągnąć wynik co najmniej 80% poprawnych odpowiedzi. Tekst informujący o zaliczeniu quizu jest wyświetlany w kolorze zielonym, podczas gdy informacja o niezaliczeniu – w kolorze czerwonym.
+- Procent Poprawnych Odpowiedzi: Podsumowanie zawiera również informację o procentowym wyniku poprawnych odpowiedzi użytkownika. Wynik ten obliczany jest na podstawie liczby poprawnych odpowiedzi w stosunku do całkowitej liczby pytań quizu.
+- Szczegóły Pytań i Odpowiedzi: Na ekranie podsumowania użytkownikowi prezentowana jest lista wszystkich pytań wraz z wybranymi przez siebie odpowiedziami. Poprawność każdej z odpowiedzi użytkownika zaznaczona jest za pomocą koloru tekstu: zielony kolor tekstu wskazuje na poprawną odpowiedź, natomiast czerwony kolor oznacza odpowiedź niepoprawną.
+
+5. Restart Quizu: Na ekranie podsumowania dodaj przycisk, który umożliwi użytkownikowi powrót do ekranu startowego
 
 ## Available Scripts
 
@@ -13,59 +28,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react_JSQuiz
